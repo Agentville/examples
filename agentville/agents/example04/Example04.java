@@ -1,4 +1,4 @@
-package agentville.agents;
+package agentville.agents.example04;
 
 import jade.core.Agent;
 import jade.core.Profile;
@@ -12,7 +12,8 @@ public class Example04 extends Agent {
 
     protected void setup() {
 
-		System.out.println("Hello World! This is " + getLocalName());
+		System.out.println("Hello World! This is "
+					+ getLocalName());
     }
  
     public static void main(String[] args){
@@ -39,7 +40,7 @@ public class Example04 extends Agent {
  
             AgentController agent = container.createNewAgent(
                     "Agent4",
-                    agentville.agents.Example04.class.getName(),
+                    agentville.agents.example04.Example04.class.getName(),
                     args);
             agent.start();
  
