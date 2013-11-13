@@ -1,4 +1,4 @@
 Examples
 ========
 
-Die ersten Beispiele von der Agentville-Seite.
+Die ersten - sehr einfachen - Beispiele von der Agentville-Seite.
